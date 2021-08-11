@@ -1,0 +1,106 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
+    padding: 1%;
+}
+.SearchBox
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1%;
+}
+.SearchBar
+{
+    font-family: "Montserrat";
+    padding: 0.5vw;
+    width: 17vw;
+    border-radius: 0.3vw;
+}
+.SearchButton
+{
+    font-family: "Montserrat";
+    padding: 0.5vw;
+    margin-left: 1vw;
+    background-color: #1EAE98;
+    color: aliceblue;
+    border-radius: 0.4vw;
+}
+.title
+{
+    margin-top:1%;
+    font-size: 2.6rem;
+    text-align: center;
+}
+.weathercond
+{
+    font-size: 4rem;
+    text-align: center;
+}
+.datetime
+{
+    display: flex;
+    justify-content: space-between;
+}
+.temperature
+{
+    text-align: center;
+    margin-top: 0.5vw;
+    font-size: 2.5em;
+    color: aliceblue;
+}
+.WeatherType
+{
+    margin-top:1%;
+    font-size: 1.4rem;
+    text-align: center;
+    color: aliceblue
+}
+.box
+{
+    background-color: #141E61;
+    border-radius: 3%;
+    height: 70%;
+    width: 30%;
+    margin-top: 2%;
+    margin-left:35%;
+    padding-top: 4vw;
+    margin-right:35%;
+    box-shadow: 0px 0px 4px 4px grey;
+}
+.time
+{
+    margin-top: 4%;
+    margin-right: 2vw;
+    color: honeydew;
+}
+.date
+{
+    margin-top: 4%;
+    color: honeydew;
+    margin-left: 2vw;
+}
+.footer
+{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.location
+{
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
