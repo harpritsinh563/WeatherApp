@@ -37,7 +37,6 @@ const Layout = () => {
     },[])
 
     useEffect(() => {
-        console.log("Hello "+tempinfo.weathertype)
         if(tempinfo.weathertype)
         {
             
@@ -50,6 +49,9 @@ const Layout = () => {
                     break;
                 case "Clear":
                     setWeatherstate("wi-day-sunny");
+                    break;
+                case "Rain":
+                    setWeatherstate("wi-day-rain")
                     break;
                 default:
                     setWeatherstate("wi-day-sunny");
