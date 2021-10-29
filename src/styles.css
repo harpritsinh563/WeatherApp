@@ -6,6 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size:62.5%;
+}
+
 .container{
     font-family: 'Montserrat', sans-serif;
     background: url("https://i.pinimg.com/originals/6d/df/89/6ddf89a95cc31286387b11c64c1991a8.jpg");
@@ -13,6 +18,10 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 1%;
 }
 .SearchBox
@@ -25,9 +34,9 @@
 .SearchBar
 {
     font-family: "Montserrat";
-    padding: 0.5vw;
-    width: 17vw;
-    border-radius: 0.3vw;
+    padding : 1.3rem;
+    border-radius: 0.6rem;
+    width:20rem;
     outline: none;
     border: none;
 }
@@ -38,17 +47,17 @@
 .SearchButton
 {
     font-family: "Montserrat";
-    padding: 0.5vw;
-    margin-left: 1vw;
-    background-color: #1EAE98;
+    padding : 1.3rem;
+    margin-left: 1.4rem;
+    background-color:green;
     color: aliceblue;
-    border-radius: 0.4vw;
+    border-radius: 0.6rem;
     border: none;
 }
 .title
 {
-    margin-top:1%;
-    font-size: 2.6rem;
+    margin-top:0.2rem;
+    font-size: 4rem;
     color: white;
     text-align: center;
 }
@@ -65,52 +74,69 @@
 .temperature
 {
     text-align: center;
-    margin-top: 0.5vw;
-    font-size: 2.5em;
+    margin-top: 1.3rem;
+    font-size: 4rem;
     color: aliceblue;
 }
 .WeatherType
 {
-    margin-top:1%;
-    font-size: 1.4rem;
+    margin-top:1rem;
+    font-size: 4rem;
     text-align: center;
     color: aliceblue
 }
 .box
 {
     background-color: #141E61;
-    border-radius: 3%;
-    height: 70%;
-    width: 30%;
-    margin-top: 2%;
-    margin-left:35%;
-    padding-top: 4vw;
-    margin-right:35%;
+    border-radius: 1.3rem;
+    height: 42rem;
+    width: 40rem;
+    margin-top: 1.8rem;
+    font-size:2rem;
+    padding-top: 4rem;
 }
 .time
 {
-    margin-top: 4%;
-    margin-right: 2vw;
+    margin-top: 1.8rem;
+    margin-right: 1.8rem;
     color: honeydew;
 }
 .date
 {
-    margin-top: 4%;
+    margin-top: 1.8rem;
     color: honeydew;
-    margin-left: 2vw;
+    margin-left:  1.8rem;
 }
 .footer
 {
-    margin-top: 2%;
+    margin-top: 1.2rem;
     font-weight: bold;
     color: white;
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 .location
 {
-    margin-top: 3%;
+    margin-top: 1.2rem;
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
+
+@media(max-width:998px)
+{
+    html
+    {
+        font-size: 55%;
+    }
+}
+@media(max-width:768px)
+{
+    html
+    {
+        font-size: 45%;
+    }
+}
+
+
+
